@@ -6,6 +6,11 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "service_a",
 	"workspaceFolder": "/workspace",
+	
+	"features": {
+		"ghcr.io/devcontainers/features/sshd:1": {}
+	},
+
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -23,6 +28,7 @@
 		"serviceb:3000",
 		"db:5432"
 	],
+
 	"portsAttributes": {
 		"3000": {
 			"label": "Service A (Main)"
