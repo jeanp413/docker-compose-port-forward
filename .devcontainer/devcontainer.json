@@ -31,13 +31,16 @@
 
 	"portsAttributes": {
 		"3000": {
-			"label": "Service A (Main)"
+			"label": "Service A (Main)",
+			"onAutoForward": "notify"
 		},
 		"serviceb:3000": {
-			"label": "Service B"
+			"label": "Service B",
+			"onAutoForward": "notify"
 		},
 		"db:5432": {
-			"label": "Database Postgress"
+			"label": "Database Postgress",
+			"onAutoForward": "notify"
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
